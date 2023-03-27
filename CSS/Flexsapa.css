@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(30, 231, 198);
+    text-align: center;
+}
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 600px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+.contenedor > div{
+    padding: 50px;
+}
+
+.azul{
+    background-color:rgb(0, 174, 255);
+    width: 150px;
+    height: 150px;
+}
+.morado{
+    background-color:rgb(166, 16, 221);
+    width: 150px;
+    height: 150px;
+}
+.verde{
+    font-size: small;
+    background-color:rgb(18, 219, 88);
+    width: 150px;
+    height: 150px;
+}
